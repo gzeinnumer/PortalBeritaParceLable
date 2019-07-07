@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--todo 8. buat item-->
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="7dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:padding="4dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/gambarBeritaList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="11dp"
+        android:textSize="21sp"
+        android:text="Text"
+        android:id="@+id/namaBeritaList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/penulisBeritaList"
+            android:layout_weight="1"
+            android:text="penulis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tanggalBeritaList"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="tanggal posting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
